@@ -8,7 +8,6 @@ output:
 
 ## Loading and preprocessing the data
 ```{r}
-print(getwd())
 raw <- read.csv("activity.csv", na.strings = "NA")
 dates <- unique(raw$date)
 intervals <- unique(raw$interval)

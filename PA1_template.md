@@ -4,14 +4,6 @@
 ## Loading and preprocessing the data
 
 ```r
-print(getwd())
-```
-
-```
-## [1] "/home/thorsten/github/RepData_PeerAssessment1"
-```
-
-```r
 raw <- read.csv("activity.csv", na.strings = "NA")
 dates <- unique(raw$date)
 intervals <- unique(raw$interval)

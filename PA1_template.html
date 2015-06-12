@@ -66,8 +66,6 @@ img {
 
 <div id="loading-and-preprocessing-the-data" class="section level2">
 <h2>Loading and preprocessing the data</h2>
-<pre class="r"><code>print(getwd())</code></pre>
-<pre><code>## [1] &quot;/home/thorsten/github/RepData_PeerAssessment1&quot;</code></pre>
 <pre class="r"><code>raw &lt;- read.csv(&quot;activity.csv&quot;, na.strings = &quot;NA&quot;)
 dates &lt;- unique(raw$date)
 intervals &lt;- unique(raw$interval)</code></pre>
